@@ -1,5 +1,5 @@
 def main():
-    file_name = input("File name: ")
+    file_name = input("Write file name to count words: ")
     file_path = f"words_counter/{file_name}"
     if file_path:
         file_content = open(file_path, "r")
